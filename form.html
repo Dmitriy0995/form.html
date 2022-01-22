@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmtns="http://www.w3.org/1999/xhtml>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Autentification</title>
+  </head>
+  <body>
+    <form action="http://localhost/demoapp/e1cib/start" method="post">
+      Пользователь: <input id="usr" name="usr" /><br/>
+      Пароль: <input id="pwd" type="password" value="" name="pwd"/>
+      <br/>Низкая скорость: <input id="lowclientconnectionspeed"
+      type="checkbox" name="lowclientconnectionspeed"/><br/>
+      Параметр запуска: <input id="launchparameter" name="launchparameter"/><br/>
+      Язык интерфейса: <select id="systemlanguage" name="systemlanguage">
+        <option value="ru" selected="">Русский</option>
+        <option value="en">English</option>
+      </select></br>
+      Область данных: <input id="zone" name="zone"/>
+      <input id="authfailhandling" type="hidden" value="error" name="authfailhandling"/>
+      <p><input type="submit" value="OK"/></p>
+    </form>
+      
+    <h3>Тестовая страница заполнения формы аутентификаций</h3>
+  </body>
+</html>
